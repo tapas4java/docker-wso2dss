@@ -5,7 +5,7 @@ Docker Image for WSO2 Data Services Server(DSS).
 
 The dockerfile will:
 
-* Copy `DSS 3.5.0 zip` to /otp from Packages directory.
+* Copy `DSS 3.5.0 zip` to `/opt` from Packages directory.
 * Unzip the `DSS 3.5.0 ZIP`.
 * Expose the container port `9446`.
 * Set the DSS `wso2server.sh` start-up script as the container start-up command.
